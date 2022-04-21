@@ -52,7 +52,7 @@ FluView_StackedColumnChart_Data %>%
     legend.position = "bottom",
     legend.direction = "vertical"
   )
-ggsave("Influenza_online.png")
+ggsave("graphs/Influenza_online.png")
 
 print(InfluenzeSchool)
 
@@ -76,7 +76,7 @@ InfluenzeSchool %>%
     legend.position = "bottom",
     legend.direction = "vertical"
   )
-ggsave("InfluenzaSchool_online.png") ##Connect with line?
+ggsave("graphs/InfluenzaSchool_online.png") ##Connect with line?
 
 
 # Graphs for SARSTracker TimeSeries ---------------------------------------
@@ -98,7 +98,7 @@ SARSTracker %>%
     legend.position = "bottom",
     legend.direction = "vertical"
   )
-ggsave("covid_online.png") 
+ggsave("graphs/covid_online.png") 
 
 
 # Graphs for SARSSchool ---------------------------------------------------
@@ -135,7 +135,7 @@ SARSSchool %>%
   ) +
   theme_bw(base_size = 16
   )
-ggsave("covidschool1_online.png")
+ggsave("graphs/covidschool1_online.png")
 
 ##Paper
 SARSSchool %>% 
@@ -156,7 +156,7 @@ SARSSchool %>%
   theme(
     legend.position = "bottom",
     legend.direction = "vertical")
-ggsave("covidschool2_online.png")
+ggsave("graphs/covidschool2_online.png")
 
 ##Cancelled
 SARSSchool %>% 
@@ -178,7 +178,7 @@ SARSSchool %>%
     legend.position = "bottom",
     legend.direction = "vertical"
   )
-ggsave("covidschool3_online.png")
+ggsave("graphs/covidschool3_online.png")
 
 ##Other Change
 SARSSchool %>% 
@@ -200,7 +200,7 @@ SARSSchool %>%
     legend.position = "bottom",
     legend.direction = "vertical"
   )
-ggsave("covidschool4_online.png")
+ggsave("graphs/covidschool4_online.png")
 
 ##No Change, No Close
 SARSSchool %>% 
@@ -222,5 +222,5 @@ SARSSchool %>%
     legend.position = "bottom",
     legend.direction = "vertical"
   )
-ggsave("covidschool5_online.png")
+ggsave("graphs/covidschool5_online.png")
 
