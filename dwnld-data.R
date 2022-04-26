@@ -6,3 +6,7 @@ download.file(KidsCount2_URL, "data/KidsCountSARS.xlsx", mode = "wb")
 
 CDCSARS <- "https://covidtracking.com/data/download/national-history.csv"
 download.file(CDCSARS, "data/CDCSARSTracker.csv")
+
+FluView_StackedColumnChart_Data <-
+  read_excel("data/FluView_StackedColumnChart_Data.xlsx")
+
