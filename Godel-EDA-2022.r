@@ -92,7 +92,8 @@ SARSTracker %>%
     title = "Positive SARS-CoV-2 Tests",
     subtitle = "Janurary 2020 to Janurary 2021",
     x = "Date",
-    y = "Number of Cases"
+    y = "Number of Cases",
+    prettyNum(03e+07, big.mark = ",", scientific = FALSE)
   ) +
   theme_bw(base_size = 16) +
   theme(

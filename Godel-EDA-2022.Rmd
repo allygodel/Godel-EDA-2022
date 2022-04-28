@@ -19,12 +19,13 @@ The Impact on Education Due to SARS-CoV-2 in 2020 - 2021 Versus the Impact on Ed
 
 ## Author
 
-Allyson Godel, 
+Allyson Godel, Biosciences Department, Minnesota State University Moorhead
 
+An exploratory data anlysis for BIOL 275 Quantittive Biology at Minnesota State University Moorhead
 
 ## Introduction
 
-> As SARS-CoV-2 began its tyranny throughout the world, many variables of everyone's life were altered in order to battle this change. Along with excessive hand washing, toilet paper hoarding, and Zoom stocks skyrocketing, how education was given and received was altered in both good and bad ways during this panic. Using the comparison of positive tests regarding both SARS-CoV-2 and Influenza in 2018-2019 allows us to visually observe the differences in how these viruses caused change throughout the education system.
+As SARS-CoV-2 began its tyranny throughout the world, many variables of everyone's life were altered in order to battle this change. Along with excessive hand washing, toilet paper hoarding, and Zoom stocks skyrocketing, how education was given and received was altered in both good and bad ways during this panic. Using the comparison of positive tests regarding both SARS-CoV-2 and Influenza in 2018-2019 allows us to visually observe the differences in how these viruses caused change throughout the education system.
 
 ## Methods
 
@@ -73,7 +74,6 @@ FluView_StackedColumnChart_Data %>%
 ```
 
 ```{r}
-
 InfluenzeSchool %>% 
   filter(
     LocationType == "Nation",
@@ -99,7 +99,8 @@ SARSTracker %>%
     title = "Positive SARS-CoV-2 Tests",
     subtitle = "Janurary 2020 to Janurary 2021",
     x = "Date",
-    y = "Number of Cases"
+    y = "Number of Cases",
+    prettyNum(03e+07, big.mark = ",", scientific = FALSE)
   ) +
   theme_bw(base_size = 16) +
   theme(
@@ -109,6 +110,8 @@ SARSTracker %>%
 ```
 
 ```{r}
+FluView_StackedColumnChart_Data <-
+  read_excel("data/FluView_StackedColumnChart_Data.xlsx")
 SARSSchool <- 
   read_excel("data/KidsCountSARS.xlsx") %>% 
   separate(col = "TimeFrame", into = c("start_date", "end_date"), sep = "-") %>% 
