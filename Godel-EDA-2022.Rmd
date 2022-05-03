@@ -19,9 +19,9 @@ The Impact on Education Due to SARS-CoV-2 in 2020 - 2021 Versus the Impact on Ed
 
 ## Author
 
-Allyson Godel, Biosciences Department, Minnesota State University Moorhead
+Allyson Godel, Bio-sciences Department, Minnesota State University Moorhead
 
-An exploratory data anlysis for BIOL 275 Quantittive Biology at Minnesota State University Moorhead
+An exploratory data analysis for BIOL 275 Quantitative Biology at Minnesota State University Moorhead
 
 ## Introduction
 
@@ -43,8 +43,6 @@ InfluenzeSchool <-
 ```
 
 After selecting the data necessary to make an assessment, not only was there an increase in absences during the height of Influenza, but an increase in altered education before, during, and after the SAR-CoV-2 pandemic.
-
-> S - Estimates suppressed when the 95% confidence interval is greater than 20 percentage points or 1.2 times the estimate. N.A. – Data not available. Percentages exclude missing data. Weighted percentages were applied to the estimates of those missing to derive overall estimates for the number of children.
 
 ```{r}
 FluView_StackedColumnChart_Data <- 
@@ -152,7 +150,7 @@ SARSSchool %>%
 
 ## Discussion
 
-> After observing the graphs representing the influenza increase and 11 or more days missed, we are able to come to conclude there was an increase in percent of students who missed school due to injury or illness. Observing the age group "6-12", we are able to notice a vast increase in percent around the same time period of an increase in influenza results. Although this increase is noted, it does not hold the same immense amount of increase of education delay the SARS-CoV-2 pandemic held upon the distribution of education. When observing the increase in positive results regarding COVID, we can observe an increase in education using online resources. This use of online resources and paper materials was highest at the beginning, died down, then increased once again with the introduction of a second variant of the virus. As we observe these graphs around the beginning of October (the beginning of the second variant), we are able to observe an overall increase in online and paper material being used in schools. At that time, many school districts were also taking action by socially distancing their students, canceling classes such as physical education, and requiring a mask mandate. This defense plays into the last two graphs, which represents the overall change and operation of education systems after these changes were implemented (remaining and enforcing these defensive tactics to avoid the virus). Overall, these graphs both represent the education system and how affected it becomes on impact of viruses in general, however also represents the immense amount of safety put into the system. Throughout this pandemic, education systems have remained vigilant and continue to fight for childrens rights to remain educated.
+After observing the graphs representing the influenza increase and 11 or more days missed, we are able to come to conclude there was an increase in percent of students who missed school due to injury or illness. Observing the age group "6-12", we are able to notice a vast increase in percent around the same time period of an increase in influenza results. Although this increase is noted, it does not hold the same immense amount of increase of education delay the SARS-CoV-2 pandemic held upon the distribution of education. When observing the increase in positive results regarding COVID, we can observe an increase in education using online resources. This use of online resources and paper materials was highest at the beginning, died down, then increased once again with the introduction of a second variant of the virus. As we observe these graphs around the beginning of October (the beginning of the second variant), we are able to observe an overall increase in online and paper material being used in schools. At that time, many school districts were also taking action by socially distancing their students, canceling classes such as physical education, and requiring a mask mandate. This defense plays into the last two graphs, which represents the overall change and operation of education systems after these changes were implemented (remaining and enforcing these defensive tactics to avoid the virus). Overall, these graphs both represent the education system and how affected it becomes on impact of viruses in general, however also represents the immense amount of safety put into the system. Throughout this pandemic, education systems have remained vigilant and continue to fight for childrens' rights to remain educated.
 
 ## References
 
