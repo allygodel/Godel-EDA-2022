@@ -133,7 +133,22 @@ continued to have towards education even after the shift to online
 learning. This shift possibly teaches students self-efficacy without the
 social construct of a day to day school life. 
 
-    Although the SARS-CoV-2 pandemic has been beyond destructive towards education, careers, and overall living, convenience of a vaccine that has a probability of softening the impact is key to this rebound. Similar to the Influenza outbreak in 2019, Adams, Lavonne. (2019), and his team of researchers were able to observe the impact of convenient vaccines through the distribution at TCU (Texas Christian University). This knowledge allows us to better comprehend the nature of individuals as we continue to distribute the vaccine or boosters. A main issue is the lack of distribution being convenient. However, some vaccines are harder to obtain than others, thus lulling schools into a false sense of security. Llupia, Anna (2021) reported the mistake of public schools in Catalonia, Spain when reopening their doors to students. Although similar to some schools here in America, the safety measures were majorly lacking as the virus was still changing and altering. This mistake led to many of the 778,000 students not only contracting the virus, but also bringing this deadly issue home.
+Although the SARS-CoV-2 pandemic has been beyond destructive towards
+education, careers, and overall living, convenience of a vaccine that
+has a probability of softening the impact is key to this rebound.
+Similar to the Influenza outbreak in 2019, Adams, Lavonne. (2019), and
+his team of researchers were able to observe the impact of convenient
+vaccines through the distribution at TCU (Texas Christian University).
+This knowledge allows us to better comprehend the nature of individuals
+as we continue to distribute the vaccine or boosters. A main issue is
+the lack of distribution being convenient. However, some vaccines are
+harder to obtain than others, thus lulling schools into a false sense of
+security. Llupia, Anna (2021) reported the mistake of public schools in
+Catalonia, Spain when reopening their doors to students. Although
+similar to some schools here in America, the safety measures were
+majorly lacking as the virus was still changing and altering. This
+mistake led to many of the 778,000 students not only contracting the
+virus, but also bringing this deadly issue home.
 
 ## References
 
