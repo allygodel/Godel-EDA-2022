@@ -130,7 +130,6 @@ SARSTracker %>%
   )
 ```
 
-
 ```{r}
 SARSSchool %>% 
   filter(
