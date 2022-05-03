@@ -84,6 +84,8 @@ pandemic.
 
 ![](Godel-EDA-2022_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
+![](Godel-EDA-2022_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+
 > S - Estimates suppressed when the effective sample size is less than
 > 30 or the 90% confidence interval is greater than 30 percentage points
 > or 1.3 times the estimate
